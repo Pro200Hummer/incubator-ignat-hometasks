@@ -1,0 +1,8 @@
+.wrapper{
+    width: 100%;
+    background-color: #4cd417;
+}
+.wrapper div{
+    color: #ba1212;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

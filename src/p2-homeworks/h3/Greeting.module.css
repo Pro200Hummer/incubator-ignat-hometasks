@@ -1,0 +1,10 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+.not-error {
+    border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+.wrapper{
+    width: 100%;
+    background-color: #3939ee;
+}
+.wrapper h1{
+    color: #f8be05;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+}
