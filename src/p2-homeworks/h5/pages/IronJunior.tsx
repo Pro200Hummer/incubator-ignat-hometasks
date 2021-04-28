@@ -12,7 +12,7 @@ function IronJunior() {
     return (
         <div>
             <HW9/>
-            {/*<HW10/>*/ }
+            <HW10/>
             {/*<HW11/>*/ }
             {/*<HW12/>*/}
         </div>
