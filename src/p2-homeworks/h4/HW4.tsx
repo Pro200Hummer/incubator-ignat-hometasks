@@ -17,8 +17,7 @@ function HW4() {
     const red = !text
     // Для каждого чека заюзал свой стейт, ибо глаз дёргается когда они вместе меняются :)
     const [firstCheck, setFirstCheck] = useState<boolean>(false);
-    const [secondCheck, setSecondCheck] = useState<boolean>(false);
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setSecondCheck(e.currentTarget.checked);
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setFirstCheck/**/(e.currentTarget.checked);
 
     return (
         <div>
@@ -52,7 +51,7 @@ function HW4() {
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={secondCheck} onChange={testOnChange}/>
+                <SuperCheckbox checked={firstCheck} onChange={testOnChange}/>
             </div>
 
             <hr/>
